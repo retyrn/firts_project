@@ -1,0 +1,65 @@
+.header
+{
+    width: 350px;
+    margin: auto;
+    padding: 0 25px;
+    position: relative;
+    border-radius: 30px;
+    background-color: #046582;
+    box-shadow: 0px 5px 15px black;
+}
+
+.block_btn_header
+{
+    display: inline-block;
+    width: 160px;
+    text-align: center;
+}
+
+.block_btn_header:hover > a
+{
+    letter-spacing: 3px;
+}
+
+.block_btn_header button
+{
+    background-color: inherit;
+    border: 0;
+    padding: 15px 0;
+}
+
+.block_btn_header a
+{
+    color: whitesmoke;
+    font-size: 30px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: all .3s;
+    border: none;
+
+    position: relative;
+    cursor: pointer;
+}
+
+.active_block a
+{ 
+    text-shadow: 2px 2px black;
+    font-weight: 800;    
+}
+
+
+
+.block_btn_header:hover
+{
+    cursor: pointer;
+}
+
+
+.block_btn_header_singIn
+{
+    position: absolute;
+    right: 5%;
+}
+
+
+

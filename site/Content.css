@@ -1,0 +1,140 @@
+.content
+{
+    width: 900px;
+    margin: auto;
+    height: 500px;
+    margin-top: 20px;
+    position: relative;
+}
+
+
+.content_general
+{
+    position: absolute;
+    left: 50%;
+    text-align: center;
+    top: 58%;
+    opacity: 0;
+    z-index: -10;
+    border: 5px solid #6e7582;
+    padding: 10px;
+    cursor: pointer;
+    transform: translate(-50%, -50%);
+    transition: all .3s;    
+}
+
+
+.content_general a
+{
+    font-size: 60px;
+    color: #6e7582;
+    text-decoration: none;
+    user-select: none;
+}
+
+.content_singIn
+{
+    z-index: -10;
+    box-shadow: 0px 5px 15px black;
+    position: absolute;
+    left: 50%;
+    top: 55%;
+    opacity: 0;
+    transform: translate(-50%, -50%);
+    transition: all .3s;
+    width: 420px;
+    border-radius: 15px;
+    background-color: #f39189;
+    padding: 40px
+}
+
+.block_singIn
+{
+    width: 400px;
+    margin: auto;
+}
+
+.block_singIn input
+{
+    display: block;
+    width: 350px;
+    padding: 10px;
+    font-size: 30px;
+    margin: 10px auto;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 20px;
+    color: black;
+}
+
+.block_input_content_singIn
+{
+    margin-bottom: 30px;
+}
+
+
+.block_singIn button
+{
+    font-size: 25px;
+    background-color: white;
+    border: 2px solid black;
+    padding: 8px 8px;
+    margin: 5px 2px;
+    color: black;
+    cursor: pointer;
+    border-radius: 20px;
+    font-weight: 800;
+}
+
+.block_singIn button:hover
+{
+    background-color: black;
+    color: white;
+}
+
+
+.block_button_content_singIn
+{
+    width: 350px;
+    margin: auto;
+}
+
+
+.content_registr
+{
+    z-index: -10;
+    box-shadow: 0px 5px 15px black;
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    opacity: 0;
+    transform: translate(-50%, -50%);
+    transition: all .3s;
+    width: 420px;
+    border-radius: 15px;
+    background-color: #f39189;
+    padding: 40px
+}
+
+.content_registr input
+{
+    color: black;
+    text-align: center;
+    font-weight: 800;
+}
+
+.content_registr button
+{
+    width: 300px;
+    margin: auto;
+    display: block;
+}
+
+
+.content_blockActive
+{
+    z-index: 1;
+    top: 60%;
+    opacity: 1;    
+}
+
